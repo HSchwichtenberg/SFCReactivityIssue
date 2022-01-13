@@ -5,7 +5,7 @@ I have uploaded the project here: https://github.com/vuejs/vue-next/issues/5248#
 
 Can anyone explain why SFC Playground and a local Vue CLI Project behave so different?
 
-´´´
+```
 <template>
  <div id="app">
     <div>x should be reactive: x={{x}}
@@ -26,4 +26,4 @@ function increment()
     x.value++; 
     y++; 
 }
-´´´
+```
